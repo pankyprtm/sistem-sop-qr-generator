@@ -58,6 +58,8 @@ php spark serve
 
 ![Screenshot1](docs/img/Screenshot1.png)
 
+<img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="70%" />
+
 Akses via browser: http://localhost:8080
 
 📷 Preview
