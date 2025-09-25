@@ -90,8 +90,8 @@ Sistem ini memungkinkan pengunjung/tamu untuk melakukan **scan QR Code** agar da
 
 ### 🔹 Dashboard & Data SOP
 <p align="center">
-  <img src="docs/img/Screenshot1.png" width="45%" />
-  <img src="docs/img/Screenshot2.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" />
 </p>
 
 ### 🔹 Form Tambah Data
