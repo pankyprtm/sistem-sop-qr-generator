@@ -34,15 +34,12 @@ Sistem ini memudahkan **tamu/visitor** untuk mengetahui SOP suatu ruangan dengan
 ```bash
 git clone https://github.com/pankyprtm/sistem-sop-qr-generator.git
 cd sistem-sop-qr-generator
-
-Install Dependencies
+2. Install Dependencies
 composer install
 
 3. Konfigurasi
 
-Copy file .env.example menjadi .env
-
-Atur database di .env:
+Copy file .env.example menjadi .env, lalu atur database:
 
 database.default.hostname = localhost
 database.default.database = sop_qr
@@ -56,96 +53,25 @@ php spark migrate
 5. Jalankan Aplikasi
 php spark serve
 
-Akses via browser: http://localhost:8080
+
+Akses via browser:
+👉 http://localhost:8080
 
 📷 Preview
-
-# Sistem SOP dengan QR Generator
-
-Aplikasi berbasis **CodeIgniter 4**, **Bootstrap 5**, dan **AdminLTE** yang digunakan untuk mengelola SOP (Standard Operating Procedure) setiap ruangan/departemen.  
-Sistem ini memungkinkan pengunjung/tamu untuk melakukan **scan QR Code** agar dapat langsung melihat SOP yang berlaku.
-
----
-
-## ✨ Fitur
-- 🔐 Manajemen SOP (CRUD: Create, Read, Update, Delete)  
-- 📄 Upload file SOP (PDF/Doc) dengan URL  
-- 📷 Generate QR Code untuk setiap SOP  
-- 📱 Scanner QR bawaan untuk user  
-- 📊 Dashboard modern dengan AdminLTE + Bootstrap 5  
-
----
-
-## 🚀 Teknologi yang digunakan
-- [CodeIgniter 4](https://codeigniter.com/)  
-- [Bootstrap 5](https://getbootstrap.com/)  
-- [AdminLTE](https://adminlte.io/)  
-- [PHP](https://www.php.net/)  
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-
----
-
-## 📷 Preview
-
-## 📷 Preview
-
-### 🔹 Dashboard & Data SOP
-<p align="center">
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" />
-</p>
-
-### 🔹 Form Tambah Data
-<p align="center">
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot3.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot4.png" width="45%" />
-</p>
-
-### 🔹 Dashboard & Data SOP
-<p align="center">
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" />
-</p>
-
-### 🔹 Form Tambah Data
-<p align="center">
-  <img src="docs/img/Screenshot3.png" width="45%" />
-  <img src="docs/img/Screenshot4.png" width="45%" />
-</p>
-
-### 🔹 QR Code Generator
-<p align="center">
-  <img src="docs/img/Screenshot5.png" width="45%" />
-  <img src="docs/img/Screenshot6.png" width="45%" />
-</p>
-
-### 🔹 QR Scanner
-<p align="center">
-  <img src="docs/img/Screenshot7.png" width="45%" />
-  <img src="docs/img/Screenshot8.png" width="45%" />
-</p>
-
-### 🔹 Lainnya
-<p align="center">
-  <img src="docs/img/Screenshot9.png" width="45%" />
-  <img src="docs/img/Screenshot10.png" width="45%" />
-</p>
-
----
-
-## ⚡ Cara Install
-1. Clone repository:
-   ```bash
-   git clone https://github.com/pankyprtm/sistem-sop-qr-generator.git
-   cd sistem-sop-qr-generator
-
-
+🔹 Dashboard & Data SOP
+<p align="center"> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" /> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" /> </p>
+🔹 Form Tambah Data
+<p align="center"> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot3.png" width="45%" /> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot4.png" width="45%" /> </p>
+🔹 QR Code Generator
+<p align="center"> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot5.png" width="45%" /> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot6.png" width="45%" /> </p>
+🔹 QR Scanner
+<p align="center"> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot7.png" width="45%" /> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot8.png" width="45%" /> </p>
+🔹 Lainnya
+<p align="center"> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot9.png" width="45%" /> <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot10.png" width="45%" /> </p>
 👨‍💻 Pengembang
 
-Dibuat dan dikembangkan oleh Panky Yoga Pratama @
-.
+Dibuat dan dikembangkan oleh Panky Yoga Pratama.
 
 📜 Lisensi
 
-MIT
- © 2023
+MIT © 2023
