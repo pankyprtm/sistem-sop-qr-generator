@@ -61,8 +61,11 @@ Akses via browser: http://localhost:8080
 
 📷 Preview
 
-<img width="1366" height="768" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/ac666874-5079-4a8b-aa1f-30bb29610690" />
-
+![Screenshot1](docs/img/Screenshot1.png)
+![Screenshot2](docs/img/Screenshot2.png)
+![Screenshot3](docs/img/Screenshot3.png)
+![Screenshot4](docs/img/Screenshot4.png)
+![Screenshot5](docs/img/Screenshot5.png)
 
 👨‍💻 Pengembang
 
