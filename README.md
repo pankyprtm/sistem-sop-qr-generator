@@ -96,3 +96,10 @@ Dibuat dan dikembangkan oleh Panky Yoga Pratama.
 📜 Lisensi
 
 MIT © 2023
+
+![Dashboard Screenshot](https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
+</p>
+
