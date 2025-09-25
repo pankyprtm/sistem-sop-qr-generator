@@ -61,16 +61,71 @@ Akses via browser: http://localhost:8080
 
 📷 Preview
 
-![Screenshot1](docs/img/Screenshot1.png)
-![Screenshot2](docs/img/Screenshot2.png)
-![Screenshot3](docs/img/Screenshot3.png)
-![Screenshot4](docs/img/Screenshot4.png)
-![Screenshot5](docs/img/Screenshot5.png)
-![Screenshot6](docs/img/Screenshot6.png)
-![Screenshot7](docs/img/Screenshot7.png)
-![Screenshot8](docs/img/Screenshot8.png)
-![Screenshot9](docs/img/Screenshot9.png)
-![Screenshot10](docs/img/Screenshot10.png)
+# Sistem SOP dengan QR Generator
+
+Aplikasi berbasis **CodeIgniter 4**, **Bootstrap 5**, dan **AdminLTE** yang digunakan untuk mengelola SOP (Standard Operating Procedure) setiap ruangan/departemen.  
+Sistem ini memungkinkan pengunjung/tamu untuk melakukan **scan QR Code** agar dapat langsung melihat SOP yang berlaku.
+
+---
+
+## ✨ Fitur
+- 🔐 Manajemen SOP (CRUD: Create, Read, Update, Delete)  
+- 📄 Upload file SOP (PDF/Doc) dengan URL  
+- 📷 Generate QR Code untuk setiap SOP  
+- 📱 Scanner QR bawaan untuk user  
+- 📊 Dashboard modern dengan AdminLTE + Bootstrap 5  
+
+---
+
+## 🚀 Teknologi yang digunakan
+- [CodeIgniter 4](https://codeigniter.com/)  
+- [Bootstrap 5](https://getbootstrap.com/)  
+- [AdminLTE](https://adminlte.io/)  
+- [PHP](https://www.php.net/)  
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+
+---
+
+## 📷 Preview
+
+### 🔹 Dashboard & Data SOP
+<p align="center">
+  <img src="docs/img/Screenshot1.png" width="45%" />
+  <img src="docs/img/Screenshot2.png" width="45%" />
+</p>
+
+### 🔹 Form Tambah Data
+<p align="center">
+  <img src="docs/img/Screenshot3.png" width="45%" />
+  <img src="docs/img/Screenshot4.png" width="45%" />
+</p>
+
+### 🔹 QR Code Generator
+<p align="center">
+  <img src="docs/img/Screenshot5.png" width="45%" />
+  <img src="docs/img/Screenshot6.png" width="45%" />
+</p>
+
+### 🔹 QR Scanner
+<p align="center">
+  <img src="docs/img/Screenshot7.png" width="45%" />
+  <img src="docs/img/Screenshot8.png" width="45%" />
+</p>
+
+### 🔹 Lainnya
+<p align="center">
+  <img src="docs/img/Screenshot9.png" width="45%" />
+  <img src="docs/img/Screenshot10.png" width="45%" />
+</p>
+
+---
+
+## ⚡ Cara Install
+1. Clone repository:
+   ```bash
+   git clone https://github.com/pankyprtm/sistem-sop-qr-generator.git
+   cd sistem-sop-qr-generator
+
 
 👨‍💻 Pengembang
 
