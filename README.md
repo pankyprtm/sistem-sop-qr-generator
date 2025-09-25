@@ -1,5 +1,4 @@
-## 📷 Preview
-
+📷 Preview
 ### 🔹 Dashboard & Data SOP
 ![Screenshot1](https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png)
 ![Screenshot2](https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png)
@@ -56,13 +55,17 @@ Sistem ini memudahkan **tamu/visitor** untuk mengetahui SOP suatu ruangan dengan
 ```bash
 git clone https://github.com/pankyprtm/sistem-sop-qr-generator.git
 cd sistem-sop-qr-generator
+
 2. Install Dependencies
+bash
+Copy code
 composer install
 
 3. Konfigurasi
-
 Copy file .env.example menjadi .env, lalu atur database:
 
+ini
+Copy code
 database.default.hostname = localhost
 database.default.database = sop_qr
 database.default.username = root
@@ -70,11 +73,14 @@ database.default.password =
 database.default.DBDriver = MySQLi
 
 4. Migrasi Database
+bash
+Copy code
 php spark migrate
 
 5. Jalankan Aplikasi
+bash
+Copy code
 php spark serve
-
 Akses via browser:
 👉 http://localhost:8080
 
