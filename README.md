@@ -56,6 +56,7 @@ php spark migrate
 5. Jalankan Aplikasi
 php spark serve
 
+![Screenshot1](docs/img/Screenshot1.png)
 
 Akses via browser: http://localhost:8080
 
