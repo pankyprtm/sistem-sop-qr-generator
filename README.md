@@ -66,6 +66,11 @@ Akses via browser: http://localhost:8080
 ![Screenshot3](docs/img/Screenshot3.png)
 ![Screenshot4](docs/img/Screenshot4.png)
 ![Screenshot5](docs/img/Screenshot5.png)
+![Screenshot5](docs/img/Screenshot6.png)
+![Screenshot5](docs/img/Screenshot7.png)
+![Screenshot5](docs/img/Screenshot8.png)
+![Screenshot5](docs/img/Screenshot9.png)
+![Screenshot5](docs/img/Screenshot10.png)
 
 👨‍💻 Pengembang
 
