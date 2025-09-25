@@ -1,18 +1,18 @@
 📷 Preview
 
-### 🔹 Dashboard & Data SOP
+### 🔹 Dashboard Menu User & About
 <p align="center">
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" />
 </p>
 
-### 🔹 Form Tambah Data
+### 🔹 Form Login User
 <p align="center">
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot3.png" width="45%" />
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot4.png" width="45%" />
 </p>
 
-### 🔹 QR Code Generator
+### 🔹 Form Register User
 <p align="center">
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot5.png" width="45%" />
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot6.png" width="45%" />
@@ -24,7 +24,7 @@
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot8.png" width="45%" />
 </p>
 
-### 🔹 Lainnya
+### 🔹 Dashoard Pengelolaan QR
 <p align="center">
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot9.png" width="45%" />
   <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot10.png" width="45%" />
