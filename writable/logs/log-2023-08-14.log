@@ -1,0 +1,209 @@
+CRITICAL - 2023-08-14 03:48:05 --> Call to undefined function ImageCreate()
+in FCPATH\assets\phpqrcode\qrimage.php on line 74.
+ 1 FCPATH\assets\phpqrcode\qrimage.php(32): QRimage::image([...], 2.2, 4)
+ 2 FCPATH\assets\phpqrcode\qrencode.php(494): QRimage::png([...], 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 2.2, 4, false)
+ 3 FCPATH\assets\phpqrcode\qrencode.php(286): QRencode->encodePNG('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', false)
+ 4 APPPATH\Views\view_prosedur.php(120): QRcode::png('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 'M', 2.2)
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\app\\Views\\view_prosedur.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_prosedur', [], true)
+ 8 APPPATH\Controllers\Prosedur.php(51): view('view_prosedur', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 03:48:34 --> Call to undefined function ImageCreate()
+in FCPATH\assets\phpqrcode\qrimage.php on line 74.
+ 1 FCPATH\assets\phpqrcode\qrimage.php(32): QRimage::image([...], 2.2, 4)
+ 2 FCPATH\assets\phpqrcode\qrencode.php(494): QRimage::png([...], 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 2.2, 4, false)
+ 3 FCPATH\assets\phpqrcode\qrencode.php(286): QRencode->encodePNG('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', false)
+ 4 APPPATH\Views\view_prosedur.php(120): QRcode::png('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 'M', 2.2)
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\app\\Views\\view_prosedur.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_prosedur', [], true)
+ 8 APPPATH\Controllers\Prosedur.php(51): view('view_prosedur', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 04:14:11 --> Call to undefined function ImageCreate()
+in FCPATH\assets\phpqrcode\qrimage.php on line 74.
+ 1 FCPATH\assets\phpqrcode\qrimage.php(32): QRimage::image([...], 2.2, 4)
+ 2 FCPATH\assets\phpqrcode\qrencode.php(494): QRimage::png([...], 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 2.2, 4, false)
+ 3 FCPATH\assets\phpqrcode\qrencode.php(286): QRencode->encodePNG('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', false)
+ 4 APPPATH\Views\view_prosedur.php(120): QRcode::png('https://drive.google.com/file/d/1W6EPS0q9kPsYZxpjL7A2QIccy8iK-lri/view?usp=sharing', 'C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\kode1.png', 'M', 2.2)
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\app\\Views\\view_prosedur.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_prosedur', [], true)
+ 8 APPPATH\Controllers\Prosedur.php(51): view('view_prosedur', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk2\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:09:06 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:11:31 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:11:37 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:29:44 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:32:34 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:32:53 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:37:52 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:38:40 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:42:59 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-14 07:47:39 --> Class 'App\Controllers\Time' not found
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:49:06 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:49:18 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:54:23 --> Call to undefined method App\Models\ProsedurModel::insert_id
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Prosedur.php(107): CodeIgniter\Model->__call('insert_id', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:56:24 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:57:57 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:59:21 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+in APPPATH\Controllers\Prosedur.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sop_apk\\app\\Controllers\\Prosedur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Prosedur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Prosedur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Prosedur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Prosedur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 07:59:39 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+in APPPATH\Controllers\Prosedur.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sop_apk\\app\\Controllers\\Prosedur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Prosedur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Prosedur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Prosedur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Prosedur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 08:00:43 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+in APPPATH\Controllers\Prosedur.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sop_apk\\app\\Controllers\\Prosedur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Prosedur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Prosedur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Prosedur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Prosedur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 08:00:48 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+in APPPATH\Controllers\Prosedur.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sop_apk\\app\\Controllers\\Prosedur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Prosedur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Prosedur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Prosedur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Prosedur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 08:00:55 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+in APPPATH\Controllers\Prosedur.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sop_apk\\app\\Controllers\\Prosedur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Prosedur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Prosedur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Prosedur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Prosedur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-14 08:03:40 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')

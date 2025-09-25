@@ -1,0 +1,34 @@
+CRITICAL - 2023-08-11 03:05:02 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\view_prosedur.php on line 186.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_prosedur', [], true)
+ 3 APPPATH\Controllers\Prosedur.php(51): view('view_prosedur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-11 03:15:39 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\view_prosedur.php on line 182.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_prosedur', [], true)
+ 3 APPPATH\Controllers\Prosedur.php(51): view('view_prosedur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-11 08:29:52 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
+CRITICAL - 2023-08-11 08:30:56 --> Call to a member function getError() on null
+in APPPATH\Controllers\Prosedur.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prosedur->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sop_apk\\public\\index.php')
