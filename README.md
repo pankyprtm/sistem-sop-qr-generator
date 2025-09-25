@@ -56,10 +56,6 @@ php spark migrate
 5. Jalankan Aplikasi
 php spark serve
 
-![Screenshot1](docs/img/Screenshot1.png)
-
-<img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="70%" />
-
 Akses via browser: http://localhost:8080
 
 📷 Preview
@@ -90,6 +86,20 @@ Sistem ini memungkinkan pengunjung/tamu untuk melakukan **scan QR Code** agar da
 ---
 
 ## 📷 Preview
+
+## 📷 Preview
+
+### 🔹 Dashboard & Data SOP
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot2.png" width="45%" />
+</p>
+
+### 🔹 Form Tambah Data
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot3.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/pankyprtm/sistem-sop-qr-generator/main/docs/img/Screenshot4.png" width="45%" />
+</p>
 
 ### 🔹 Dashboard & Data SOP
 <p align="center">
